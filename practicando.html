@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando</title>
+    <link rel="stylesheet" href="practicando.css" type="text/css">  
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <img src="mundo.png" alt="mundo" id="Mundo">
+
+            <h1 class="centrado">Descubre tu peso en otro planeta!</h1>
+        </div>
+    </section>
+        
+        <div class="todoTexto">
+            <br/>
+            <section>
+                <p id="texto">Hola, dime cual es tu peso en kilogramos:</p> 
+                <br/>  
+            </section>
+            <section>
+                <input class="peso" type="number" id="dato_usuario" placeholder="b">
+            </section>
+            <br/>
+            <section>
+                <div class="paAchicarFlex">
+                    <input type="button" value="Marte" id="Marte" class="planetas">
+                    <input type="button" value="Jupiter" id="Jupiter" class="planetas">
+                    <input type="button" value="Venus" id="Venus" class="planetas">
+                </div>
+            </section>
+            <br>
+            <section id="resultado">
+            </section>
+            <section id="reinicio">
+                <button id="btn_reiniciar">Gracias por averiguar tu peso. Esperamos que despues 
+                    de esto no sigas comiendo tanto😜. <br>Toca aqui para volver a pesarte!
+                </button>
+            </section>
+        </div>
+   
+    <script type="text/javascript" src="practicando.js"></script>
+</body>
+</html>
